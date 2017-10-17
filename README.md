@@ -8,6 +8,18 @@ BIP39 Mnemonics for bitcore
 
 A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Mnemonic code for generating deterministic keys](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
 
+## Usage
+
+You should be import they first:
+
+https://github.com/WoeOm/react-native-secure-randombytes
+
+```js
+import { asyncRandomBytes } from 'react-native-secure-randombytes'
+
+window.randomBytes = asyncRandomBytes
+```
+
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
