@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-mnemonic-react-native",
-  "version": "1.2.4",
+  "name": "bitcore-mnemonic-expo",
+  "version": "1.0.1",
   "description": "BIP39 Mnemonics implemented for Bitcore.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "bitcore-lib": "git+https://github.com/dekameron22/bitcore-lib.git",
+    "expo-random": "^8.1.0",
     "unorm": "^1.3.3"
   }
 }
